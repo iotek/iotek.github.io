@@ -62,7 +62,7 @@ footer {
 }
 
 /* wtf am I doing */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
 	header nav a {
 		font-size: 10px;
 	}
