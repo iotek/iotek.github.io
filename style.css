@@ -61,3 +61,15 @@ footer {
 	width: 100%;
 }
 
+/* wtf am I doing */
+@media screen and (max-width: 400px) {
+	header nav a {
+		font-size: 10px;
+	}
+
+	header {
+		font-size: 15px;
+		margin: auto;
+		padding: 5px 4px;
+	}
+}
