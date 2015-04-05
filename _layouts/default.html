@@ -1,30 +1,26 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html>
 <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="/style.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 	<title>{{ site.name }}</title>
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" type="text/css" href="/style.css">
+	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400,700|Source+Code+Pro:400,700">
 </head>
 <body>
-	<div id="wrapper">
-		<div id="header">
-			<nav>
-				<a href="/">home</a>
-				<a href="/about">about</a>
-			</nav>
-		</div>
-	
-		<div id="content">
-			{{ content }}
+	<header>
+		<div id="about">
+			<p>{{ site.name }}</p>
 		</div>
 
-		<div id="footer">
-			<a target="_blank" href="https://github.com/iotek"><i class="fa fa-github-square icon"></i></a>
-			<a target="_blank" href="bitcoin:1Lhm8K8JRC83b3wQZkkXmJD4bKbJDrsdm3"><i class="fa fa-btc icon"></i></a>
-		</div>
-	</div>
+		<nav>
+			<a href="https://github.com/iotek/iotek.github.io">Source</a>
+			<a href="/faq">FAQ</a>
+			<a href="/about">About</a>
+			<a href="/">Home</a>
+		</nav>
+	</header>
+
+	{{ content }}
 </body>
 </html>

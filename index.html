@@ -3,11 +3,9 @@ layout: default
 ---
 
 {% for post in site.posts %}
-	<div id="post">
-		<a href="{{ site.baseurl }}{{ post.url }}"><h1>{{ post.title }}</h1></a>
+<article>
+	<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
 
-		<div id="summary">
-			{{ post.content | turncatewords:40 }}
-		</div>
-	</div>
+	{{ post.content | turncatewords:40 }}
+</article>
 {% endfor %}

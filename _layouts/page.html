@@ -1,11 +1,9 @@
 ---
 layout: default
 ---
+TOST
+<header><a href="{{ post.url }}">{{ post.title}}</a></header>
 
-<div id="post">
-	<a href="{{ site.baseurl }}{{ post.url }}"><h1>{{ post.title}}</h1></a>
-
-	<div id="summary">
-		{{ .content }}
-	</div>
-</div>
+<article>
+	{{ .content }}
+</article>
