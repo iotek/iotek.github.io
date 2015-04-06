@@ -80,12 +80,28 @@ footer {
 
 code {
 	background: #eee;
-	border: 1px solid #ccc;
+	border: 1px solid #E7E5E5;
 	padding: 1px 5px;
+	font-family: monospace;
+	font-size: 16px;
+}
+
+#logo {
+	width: 26px;
+	float: left;
+	margin: 11px;
+	height: 100%;
+	background-image: url("/res/logo.png");
+	background-size: 26px 18px;
+	background-repeat: no-repeat;
 }
 
 /* wtf am I doing */
 @media screen and (max-width: 500px) {
+	#logo {
+		background-image: url("/res/logo_hidpi.png");
+	}
+
 	header nav a {
 		font-size: 14px;
 	}
