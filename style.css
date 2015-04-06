@@ -91,17 +91,10 @@ code {
 	float: left;
 	margin: 11px;
 	height: 100%;
-	background-image: url("/res/logo.png");
-	background-size: 26px 18px;
-	background-repeat: no-repeat;
 }
 
 /* wtf am I doing */
 @media screen and (max-width: 500px) {
-	#logo {
-		background-image: url("/res/logo_hidpi.png");
-	}
-
 	header nav a {
 		font-size: 14px;
 	}
@@ -110,5 +103,45 @@ code {
 		margin: auto;
 		padding: 5px 4px;
 	}
+}
+
+
+/* logo */
+#wrapper {
+	width: 26px;
+	height: 18px;
+}
+
+#triangle-upper {
+	width: 0;
+	height: 0;
+	border-bottom: 8px solid black;
+	border-right: 8px solid transparent;
+	float: right;
+}
+
+#rectangle-upper {
+	width: 18px;
+	height: 4px;
+	background: black;
+	float: left;
+	margin-top: 4px;
+}
+
+#triangle-lower {
+	float: left;
+	width: 0;
+	height: 0;
+	border-top: 8px solid black;
+	border-left: 8px solid transparent;
+	margin-top: 2px;
+}
+
+#rectangle-lower {
+	float: right;
+	width: 18px;
+	height: 4px;
+	background: black;
+	margin-top: 2px;
 }
 
