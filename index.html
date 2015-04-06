@@ -7,5 +7,10 @@ layout: default
 	<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
 
 	{{ post.content | turncatewords:40 }}
+	
+	{% assign author = site.authors[post.author] %}
+	{% if author %}
+	<div id="by">by <a href="{{ author.link }}">{{ author.name }}</a></div>
+	{% endif %}
 </article>
 {% endfor %}

@@ -8,10 +8,14 @@ name: IOTek
 # Short bio or description (displayed in the header)
 description: null
 
-links:
-        hello
-        world
-        test
+authors:
+        dcat:
+                name: dcat
+                gravatar: 069e8b8bee5f8a19270f464a24ffcbc5
+                email: dcat < at > iotek < dot> org
+                github: dcat
+                link: https://iotek.github.io/
+
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 #avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png

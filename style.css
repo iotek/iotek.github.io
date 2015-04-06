@@ -1,4 +1,10 @@
 * { font-family: "Open Sans", sans-serif; }
+header img {
+	float: left;
+	margin: 9px;
+	margin-right: 18px;
+}
+
 header p {
 	float: left;
 	font-weight: bold;
@@ -48,10 +54,10 @@ article h1 {
 
 article {
 	font-size: 18px;
-	width: 85%;
 	margin: auto;
 	border-bottom: 1px dotted #eee;
-	padding: 30px 0px;
+	padding: 30px 0;
+	width: 80%;
 }
 
 footer {
@@ -61,15 +67,32 @@ footer {
 	width: 100%;
 }
 
+#by {
+	color: #888;
+	font-size: 12px;
+	padding-left: 14px;
+}
+
+#by a {
+	color: #888;
+	text-decoration: none;
+}
+
+code {
+	background: #eee;
+	border: 1px solid #ccc;
+	padding: 1px 5px;
+}
+
 /* wtf am I doing */
 @media screen and (max-width: 500px) {
 	header nav a {
-		font-size: 10px;
+		font-size: 14px;
 	}
 
 	header {
-		font-size: 15px;
 		margin: auto;
 		padding: 5px 4px;
 	}
 }
+
