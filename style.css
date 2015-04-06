@@ -78,6 +78,10 @@ footer {
 	text-decoration: none;
 }
 
+ol {
+	font-size: 14px;
+}
+
 code {
 	background: #eee;
 	border: 1px solid #E7E5E5;
@@ -93,8 +97,16 @@ code {
 	height: 100%;
 }
 
+header p {
+	padding-left: 8px;
+}
+
 /* wtf am I doing */
 @media screen and (max-width: 500px) {
+	header p {
+		visibility: hidden;
+	}
+
 	header nav a {
 		font-size: 14px;
 	}

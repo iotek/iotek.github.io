@@ -4,8 +4,9 @@ title: About
 permalink: /about/
 ---
 
-##Contact
-- email `echo xczq@myqwv.yrp | tr xqvmwzyp dtkieaog`
+###Contact
+- `echo xczq@myqwv.yrp | tr xqvmwzyp dtkieaog`
 
-##who we are
+
+###who we are
 - `placeholder for who we are`
