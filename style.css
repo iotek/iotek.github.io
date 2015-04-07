@@ -92,7 +92,7 @@ footer {
 	text-decoration: none;
 }
 
-ol {
+ol, ul {
 	font-size: 14px;
 }
 
