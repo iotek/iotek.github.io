@@ -74,6 +74,15 @@ article {
 	width: 80%;
 }
 
+article sup {
+	font-size: 10px;
+	font-weight: bolder;
+}
+
+ol code {
+	font-size: 12px;
+}
+
 footer {
 	position: absolute;
 	bottom: 0;
@@ -115,14 +124,17 @@ header p {
 	padding-left: 8px;
 }
 
+article a {
+	color: #1793a1;
+	text-decoration: none;
+}
+
 /* wtf am I doing */
 @media screen and (max-width: 500px) {
-	header p {
-		visibility: hidden;
-	}
-
-	header nav a {
-		font-size: 14px;
+	header p { display: none; }
+	header nav a { font-size: 14px; }
+	article {
+		width: 90%;
 	}
 
 	header {
