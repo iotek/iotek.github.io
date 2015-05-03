@@ -91,12 +91,11 @@ footer {
 }
 
 #by {
-	color: #888;
 	font-size: 12px;
 	padding-left: 14px;
 }
 
-#by a {
+#by, #by a {
 	color: #888;
 	text-decoration: none;
 }
@@ -129,7 +128,6 @@ article a {
 	text-decoration: none;
 }
 
-/* wtf am I doing */
 @media screen and (max-width: 500px) {
 	header p { display: none; }
 	header nav a { font-size: 14px; }
@@ -141,45 +139,5 @@ article a {
 		margin: auto;
 		padding: 5px 4px;
 	}
-}
-
-
-/* logo */
-#wrapper {
-	width: 26px;
-	height: 18px;
-}
-
-#triangle-upper {
-	width: 0;
-	height: 0;
-	border-bottom: 8px solid black;
-	border-right: 8px solid transparent;
-	float: right;
-}
-
-#rectangle-upper {
-	width: 18px;
-	height: 4px;
-	background: black;
-	float: left;
-	margin-top: 4px;
-}
-
-#triangle-lower {
-	float: left;
-	width: 0;
-	height: 0;
-	border-top: 8px solid black;
-	border-left: 8px solid transparent;
-	margin-top: 2px;
-}
-
-#rectangle-lower {
-	float: right;
-	width: 18px;
-	height: 4px;
-	background: black;
-	margin-top: 2px;
 }
 
