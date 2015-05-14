@@ -13,6 +13,7 @@ permalink: /resources/
 - [2f30](http://2f30.org/)
 - [z3bra](http://z3bra.org/)
 - [xero](http://xero.nu/)
+- [vypr](http://elliottpardee.me/)
 
 ###interesting stuff
 
